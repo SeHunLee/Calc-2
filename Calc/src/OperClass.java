@@ -10,26 +10,27 @@ public class OperClass {
 	SubClass ac; 
 	
 	//Hab ac;
-	//º¯ÇØ¾ß µÇ´Â
-	NumVo nc; //°íÁ¤
+	//ë³€í•´ì•¼ ë˜ëŠ”
+	NumVo nc; //ê³ ì •
 	
-	//»ı¼ºÀÚ
+	//ìƒì„±ì
 	public OperClass() {
-		System.out.println("°è»ê±â ÇÁ·Î±×·¥");
+		System.out.println("ê³„ì‚°ê¸° í”„ë¡œê·¸ë¨");
 		nc = new NumVo();
 	}
 	
 	public void inputOp() {
-		System.out.println("¹«½¼ °è»ê ? 1. µ¡¼À 2. »¬¼À 3. °ö¼À 4. ³ª´°¼À");
+		System.out.println("ë¬´ìŠ¨ ê³„ì‚° ? 1. ë§ì…ˆ 2. ëº„ì…ˆ 3. ê³±ì…ˆ 4. ë‚˜ëˆ—ì…ˆ");
 		
 	}
 	
 	public void inputNumber() {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Ã¹¹øÂ° ¼ıÀÚ ÀÔ·Â : ");
+		System.out.println("ì²«ë²ˆì§¸ ìˆ«ì ì…ë ¥ : ");
 		nc.setNum1(sc.nextInt());
-		System.out.println("µÎ¹øÂ° ¼ıÀÚ ÀÔ·Â : ");
+		System.out.println("ë‘ë²ˆì§¸ ìˆ«ì ì…ë ¥ : ");
 		nc.setNum2(sc.nextInt());
+		Sysyem.out.println("ì„¸ë²ˆì§¸ìˆ«ìì—†ë‚˜ìš”")
 	}
 
 	public void printResult() {
